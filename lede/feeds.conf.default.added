@@ -1,0 +1,5 @@
+# src-git smallpackage https://github.com/kenzok8/small-package.git
+# src-git small https://github.com/kenzok8/small.git
+# src-git gecoosac https://github.com/lwb1978/openwrt-gecoosac.git;v1.0
+# src-git xupnpd https://github.com/jarod360/luci-app-xupnpd.git
+# src-git eqosplus  https://github.com/sirpdboy/luci-app-eqosplus
