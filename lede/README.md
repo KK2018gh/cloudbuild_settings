@@ -42,7 +42,7 @@
 （-j 后面是线程数，第一次编译推荐用单线程）
 
    ```bash
-   make download -j8
+   make download -j8 V=s
    make V=s -j1
    ```
 
@@ -59,7 +59,7 @@ git pull
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make defconfig
-make download -j8
+make download -j8 V=s
 make V=s -j$(nproc)
 ```
 
