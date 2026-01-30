@@ -13,7 +13,6 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/libffi/libffi/releases/download/v$(PKG_VERSION)
-# PKG_HASH:=138607dee268bdecf374adf9144c00e839e38541f75f24a1fcf18b78fda48b2d
 PKG_HASH:=f3a3082a23b37c293a4fcd1053147b371f2ff91fa7ea1b2a52e335676bac82dc
 
 PKG_LICENSE:=MIT
@@ -22,7 +21,7 @@ PKG_CPE_ID:=cpe:/a:libffi_project:libffi
 
 PKG_INSTALL:=1
 PKG_BUILD_PARALLEL:=1
-PKG_BUILD_FLAGS:=no-mips16
+PKG_USE_MIPS16:=0
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/host-build.mk
@@ -75,9 +74,6 @@ define Build/InstallDev
 	$(INSTALL_DIR) $(1)/usr/include
 	$(CP) \
 		$(PKG_INSTALL_DIR)/usr/include/*.h \
-		$(1)/usr/include/
-	$(CP) \
-		$(PKG_BUILD_DIR)/$(GNU_TARGET_NAME)*/fficonfig.h \
 		$(1)/usr/include/
 endef
 
