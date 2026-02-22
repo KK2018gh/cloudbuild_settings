@@ -7,6 +7,11 @@ ImmortalWRT
 
 git clone -b openwrt-24.10 --single-branch https://github.com/immortalwrt/immortalwrt.git 2410
 
+AN7581
+
+git clone -b openwrt-25.12 --single-branch https://github.com/xiangtailiang/openwrt.git 7581
+
+
 -b 和 --branch 是等价的
 
 --single-branch	只克隆单个分支，减少下载量
