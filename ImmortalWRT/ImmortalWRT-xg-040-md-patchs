@@ -1,0 +1,5 @@
+cd immortalwrt
+
+git clone https://github.com/kkstone/Actions-ImmortalWrt-XG-040G-MD.git
+
+tar zxvf Actions-ImmortalWrt-XG-040G-MD/XG-040G-MD.tar.gz
