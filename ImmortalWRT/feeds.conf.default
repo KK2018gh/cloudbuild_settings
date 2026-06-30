@@ -11,6 +11,6 @@ src-git openclash https://github.com/vernesong/OpenClash.git
 src-git helloworld https://github.com/fw876/helloworld.git
 # src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main
 src-git rtp2httpd https://github.com/stackia/rtp2httpd.git
-# src-git smallpackage https://github.com/ufk119/small-package.git
+# src-git smallpackage https://github.com/kenzok8/small-package
 # src-git small https://github.com/kenzok8/small.git
 # src-git settings https://github.com/KK2018gh/cloudbuild_settings.git
