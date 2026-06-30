@@ -1,8 +1,8 @@
 
 IPQ807x
 
-git clone -b main --single-branch --depth=1 https://github.com/VIKINGYFY/immortalwrt.git imv 
-git clone  -b main --single-branch --depth=1 https://ghfast.top/https://github.com/VIKINGYFY/immortalwrt.git imv 
+git clone -b main --single-branch --depth=1 https://github.com/VIKINGYFY/immortalwrt.git imv
+git clone  -b main --single-branch --depth=1 https://ghfast.top/https://github.com/VIKINGYFY/immortalwrt.git imv
 git clone  -b main --single-branch --depth=1 https://githubfast.com/KK2018gh/cloudbuild_settings.git imv 
 git clone  -b main --single-branch --depth=1 https://gitclone.com/github.com/KK2018gh/cloudbuild_settings.git imv 
 git clone  -b main --single-branch --depth=1 https://wget.la/https://github.com/KK2018gh/cloudbuild_settings.git imv 
