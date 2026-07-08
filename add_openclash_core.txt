@@ -1,0 +1,19 @@
+curl -L -o clash-linux-amd64-compatible.tar.gz "https://github.com/vernesong/OpenClash/raw/core/dev/meta/clash-linux-amd64-compatible.tar.gz"
+tar -xzf clash-linux-amd64-compatible.tar.gz >/dev/null 2>&1
+# tar -xzf clash-linux-amd64-compatible.tar.gz -C package/luci-app-openclash/files/etc/openclash/core >/dev/null 2>&1
+mv clash clash_meta >/dev/null 2>&1
+chmod +x clash_meta >/dev/null 2>&1
+mkdir -p package/luci-app-openclash/files/etc/openclash/core
+# mkdir -p files/etc/openclash/core
+# cp clash_meta files/etc/openclash/core/
+cp clash_meta package/luci-app-openclash/files/etc/openclash/core
+rm -rf clash-linux-amd64-compatible.tar.gz >/dev/null 2>&1
+rm -rf clash_meta >/dev/null 2>&1
+
+
+curl -sL -m 30 --retry 2 https://github.com/vernesong/OpenClash/releases/download/Clash/clash-"$CPU_MODEL".tar.gz -o /tmp/clash.tar.gz
+tar zxvf /tmp/clash.tar.gz -C /tmp >/dev/null 2>&1
+chmod +x /tmp/clash >/dev/null 2>&1
+mkdir -p .../package/luci-app-openclash/files/etc/openclash/core
+mv /tmp/clash .../package/luci-app-openclash/files/etc/openclash/core/clash >/dev/null 2>&1
+rm -rf /tmp/clash.tar.gz >/dev/null 2>&1
