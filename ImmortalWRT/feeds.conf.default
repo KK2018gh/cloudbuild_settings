@@ -14,3 +14,4 @@ src-git rtp2httpd https://github.com/stackia/rtp2httpd.git
 # src-git smallpackage https://github.com/kenzok8/small-package
 # src-git small https://github.com/kenzok8/small.git
 # src-git settings https://github.com/KK2018gh/cloudbuild_settings.git
+src-git clashoo https://github.com/kenzok8/openwrt-clashoo.git
