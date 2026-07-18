@@ -5,6 +5,8 @@ git clone -b main --single-branch --depth=1 https://github.com/VIKINGYFY/immorta
 
 git clone  -b main --single-branch --depth=1 https://ghfast.top/https://github.com/VIKINGYFY/immortalwrt.git imv
 
+git clone -b 6.12 --single-branch --depth=1 https://github.com/KK2018gh/immortalwrt.git imv612
+
 git clone  -b main --single-branch --depth=1 https://githubfast.com/KK2018gh/cloudbuild_settings.git imv
 
 git clone  -b main --single-branch --depth=1 https://gitclone.com/github.com/KK2018gh/cloudbuild_settings.git imv
