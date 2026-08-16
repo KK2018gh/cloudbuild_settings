@@ -1,0 +1,8 @@
+apk add --allow-untrusted /tmp/rtp2httpd-3.16.0_beta2-r1_aarch64_cortex-a53.apk
+apk add --allow-untrusted /tmp/luci-app-rtp2httpd-3.16.0_beta2-r1.apk
+apk add --allow-untrusted /tmp/luci-i18n-rtp2httpd-zh-cn-3.16.0_beta2.apk
+
+
+apk add --no-network --allow-untrusted /tmp/rtp2httpd-3.16.0_beta2-r1_aarch64_cortex-a53.apk
+apk add --no-network --allow-untrusted  /tmp/luci-app-rtp2httpd-3.16.0_beta2-r1.apk
+apk add --no-network --allow-untrusted  /tmp/luci-i18n-rtp2httpd-zh-cn-3.16.0_beta2.apk
